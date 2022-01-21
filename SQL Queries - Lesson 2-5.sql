@@ -54,6 +54,6 @@ ORDER BY length
 DESC LIMIT 10;
 
 -- 13) How many films include Behind the Scenes content?
-SELECT * 
+SELECT COUNT(title)
 FROM sakila.film 
 WHERE special_features LIKE '%Behind the Scenes%';
