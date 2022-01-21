@@ -40,7 +40,7 @@ SELECT title, release_year FROM sakila.film;
 -- 10) Get all films with ARMAGEDDON in the title.
 SELECT * 
 FROM sakila.film_text 
-WHERE title LIKE 'ARMAGEDDON%';
+WHERE title LIKE '%ARMAGEDDON%';
 
 -- 11) Get all films which title ends with APOLLO.
 SELECT * 
